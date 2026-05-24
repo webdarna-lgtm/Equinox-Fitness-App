@@ -6,11 +6,9 @@ export const FinalCTA = () => {
   const inView = useInView(ref, { once: true });
 
   return (
-<<<<<<< HEAD
-    <section className="py-28 sm:py-40 relative overflow-hidden" ref={ref}>
-=======
+
     <section className="py-28 sm:py-40 relative overflow-hidden w-full" ref={ref}>
->>>>>>> f86c651 (responsive update for phone)
+
       <div className="orb w-[500px] h-[500px] sm:w-[800px] sm:h-[800px] bg-accent/6 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute inset-0 grid-bg opacity-50" />
 

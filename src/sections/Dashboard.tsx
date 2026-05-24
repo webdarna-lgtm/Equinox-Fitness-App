@@ -88,11 +88,9 @@ export const Dashboard = () => {
   const inView = useInView(ref, { once: true, margin: '-80px' });
 
   return (
-<<<<<<< HEAD
-    <section id="dashboard" className="py-20 sm:py-32 relative overflow-hidden" ref={ref}>
-=======
+
     <section id="dashboard" className="py-20 sm:py-32 relative overflow-hidden w-full" ref={ref}>
->>>>>>> f86c651 (responsive update for phone)
+
       <div className="orb w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] bg-accent/5 top-0 right-1/4" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

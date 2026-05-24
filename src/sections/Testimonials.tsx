@@ -22,11 +22,9 @@ export const Testimonials = () => {
   const t = testimonials[active];
 
   return (
-<<<<<<< HEAD
-    <section className="py-20 sm:py-32 relative overflow-hidden" ref={ref}>
-=======
+
     <section className="py-20 sm:py-32 relative overflow-hidden w-full" ref={ref}>
->>>>>>> f86c651 (responsive update for phone)
+
       <div className="orb w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] bg-accent/5 top-0 right-0" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div initial={{ opacity: 0, y: 30 }} animate={inView ? { opacity: 1, y: 0 } : {}} className="text-center mb-12 sm:mb-20">

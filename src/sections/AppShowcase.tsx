@@ -74,11 +74,9 @@ export const AppShowcase = () => {
   const inView = useInView(ref, { once: true, margin: '-80px' });
 
   return (
-<<<<<<< HEAD
-    <section className="py-20 sm:py-32 relative overflow-hidden" ref={ref}>
-=======
+
     <section className="py-20 sm:py-32 relative overflow-hidden w-full" ref={ref}>
->>>>>>> f86c651 (responsive update for phone)
+
       <div className="orb w-[300px] h-[300px] sm:w-[600px] sm:h-[600px] bg-accent/5 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 xl:gap-16 items-center">
